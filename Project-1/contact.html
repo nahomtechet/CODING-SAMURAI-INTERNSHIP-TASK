@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Behailu Bekele - Web Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+    
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+    </script>
+
+
+    <main>
+        <section id="contact" class="contact-hero">
+            <div class="container">
+                <h1 class="text-white">Get in Touch</h1>
+                <p class="subtitle">Let's turn your ideas into reality</p>
+            </div>
+        </section>
+
+        <section id="contact-form" class="contact-form-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p>Feel free to reach out to me through any of the following methods:</p>
+                        <ul class="contact-list">
+                            <li>
+                                <i href="mailto:nahommovies@gmail.com" class="fas fa-envelope"></i>
+                                <a >nahommovies@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone" href="tel:+251996590910"></i>
+                                <a >+251996590910</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Addis Ababa, Ethiopia</span>
+                            </li>
+                        </ul>
+                      
+                         
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <h2>Send Me a Message</h2>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <h2 class="gradient-text">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What services do you offer?</h3>
+                        <p>I offer a wide range of web development services, including front-end development, back-end development, full-stack development, and UI/UX design.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>How long does a typical project take?</h3>
+                        <p>Project timelines vary depending on the scope and complexity. A simple website might take 2-4 weeks, while a more complex web application could take 2-3 months or more.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer maintenance and support after the project is completed?</h3>
+                        <p>Yes, I offer ongoing maintenance and support services to ensure your website or application continues to run smoothly and stays up-to-date.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can you work with clients remotely?</h3>
+                        <p>I have experience working with clients from all over the world and use various tools to ensure smooth communication and collaboration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Behailu Bekele</h3>
+                <p>Web Developer & Designer</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Recent Blog Posts</h3>
+                <ul class="recent-posts">
+                    <li><a href="#">The Future of Web Development</a></li>
+                    <li><a href="#">Optimizing React Performance</a></li>
+                    <li><a href="#">Introduction to GraphQL</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> &copy; <script>document.write( new Date().getFullYear() );</script> Behailu Bekele. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="scroll-top">↑</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

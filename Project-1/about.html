@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Behailu Bekele - Web Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+    
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+    </script>
+
+    <main>
+        <section id="about" class="about-hero">
+            <div class="container">
+                <h1 class="text-white">About Behailu Bekele</h1>
+                <p class="subtitle">Passionate Web Developer & Designer</p>
+            </div>
+        </section>
+
+        <section id="bio" class="bio-section">
+            <div class="container">
+                <div class="bio-content">
+                    <div class="bio-image">
+                        <img src="public/Journey.png" alt="Behailu Bekele" class="profile-image">
+                    </div>
+                    <div class="bio-text">
+                        <h2>My Journey</h2>
+                        <p>Hello! I'm Behailu Bekele, a passionate web developer and designer with over 2 years of experience in creating beautiful, functional, and user-centered digital experiences.</p>
+                        <p>My journey in web development began when I built my first website for a local non-profit organization. Since then, I've had the opportunity to work with a diverse range of clients, from small businesses to large corporations, helping them achieve their goals through innovative web solutions.</p>
+                        <p>I believe in the power of continuous learning and staying up-to-date with the latest technologies and trends in web development. This passion drives me to deliver cutting-edge solutions that not only meet but exceed client expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="experience-header">
+
+                    <h2 class="gradient-text">My Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Front-end Development</h3>
+                        <p>HTML5, CSS3, JavaScript, React, Next.js</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Back-end Development</h3>
+                        <p>Node.js, Express, Python, Django</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Database Management</h3>
+                        <p>MySQL, MongoDB, PostgreSQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Figma, Adobe XD, Sketch</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container">
+
+                <div class="experience-header">
+                    <h2 class="gradient-text">Work Experience</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h3>Senior Web Developer</h3>
+                            <h4>TechCorp Inc.</h4>
+                            <p class="timeline-date">2022 - Present</p>
+                            <p>Leading a team of developers in creating innovative web solutions for enterprise clients. Implementing best practices in code quality and project management.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h3>Full Stack Developer</h3>
+                            <h4>Tradesnapper PLC</h4>
+                            <p class="timeline-date">2022 - 2023</p>
+                            <p>Developed and maintained various web applications using React, Node.js, and MongoDB. Collaborated with design teams to implement responsive and accessible user interfaces.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h3>Junior Web Developer</h3>
+                            <h4>StartUp Innovations</h4>
+                            <p class="timeline-date">2023 - 2024</p>
+                            <p>Assisted in the development of company websites and web applications. Gained extensive experience in front-end technologies and responsive design principles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" >
+            <div class="container">
+                <h2 class="gradient-text">Education</h2>
+            <div>
+                <div class="education-card ">
+                    <h3 class="gradient-text">Bachelor of Science in Computer Science</h3>
+                    <h4>Nptc Academy</h4>
+                    <p class="education-date">2022 </p>
+                    <p>Focused on software engineering and web technologies. Graduated with honors.</p>
+                </div>
+                <div class="education-card">
+                    <h3 class="gradient-text">Web Development Bootcamp</h3>
+                    <h4>Nptc Academy</h4>
+                    <p class="education-date">Summer 2024</p>
+                    <p>Intensive 12-week program covering full-stack web development technologies and practices.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="interests" class="interests-section">
+            <div class="container">
+                <h2 class="gradient-text">Interests & Hobbies</h2>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <i class="fas fa-book"></i>
+                        <p>Reading Tech Blogs</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-hiking"></i>
+                        <p>Hiking</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-camera"></i>
+                        <p>Photography</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-chess"></i>
+                        <p>Chess</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Behailu Bekele</h3>
+                <p>Web Developer & Designer</p>
+               
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Recent Blog Posts</h3>
+                <ul class="recent-posts">
+                    <li><a href="#">The Future of Web Development</a></li>
+                    <li><a href="#">Optimizing React Performance</a></li>
+                    <li><a href="#">Introduction to GraphQL</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> &copy; <script>document.write( new Date().getFullYear() );</script> Behailu Bekele. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="scroll-top">↑</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behailu Bekele - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+    
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+    </script>
+
+    <main>
+        <section id="home" class="hero animated-bg">
+            <h1>Welcome to <span class="gradient-text typing-effect"></span>'s Portfolio</h1>
+            <p>Passionate web developer crafting beautiful and functional digital experiences</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </section>
+
+        <section id="about">
+            <h2 class="gradient-text">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Behailu Bekele, a passionate web developer with a keen interest in creating intuitive and efficient web applications. With a strong foundation in both front-end and back-end technologies, I strive to deliver high-quality, user-centric solutions that make a difference.</p>
+                    <p>My journey in web development began 2 years ago, and since then, I've had the opportunity to work on diverse projects, from small business websites to large-scale enterprise applications. I'm constantly learning and adapting to new technologies to stay at the forefront of web development.</p>
+                </div>
+                <div class="about-image">
+                    
+                </div>
+            </div>
+            <div class="stats">
+                <div>
+                    <span class="counter" data-target="10">0</span>
+                    <p>Projects Completed</p>
+                </div>
+                <div>
+                    <span class="counter" data-target="20">0</span>
+                    <p>Happy Clients</p>
+                </div>
+                <div>
+                    <span class="counter" data-target="2">0</span>
+                    <p>Years of Experience</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>2024</h3>
+                        <p>Led a team in developing a large-scale e-commerce platform</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>2023</h3>
+                        <p>Started working as a Full Stack Developer at Tradesnapper Company</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>2022</h3>
+                        <p>Graduated with a degree in Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="gradient-text">My Skills</h2>
+            <div class="skill-bars">
+                <div>
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div>
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div>
+                    <span class="skill-name">React</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div>
+                    <span class="skill-name">Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                </div>
+                <div>
+                    <span class="skill-name">Graphics Design</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div>
+                    <span class="skill-name">NextJS</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="services">
+            <h2 class="gradient-text">Services I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications tailored to your needs</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Cross-platform mobile apps using React Native</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Robust and scalable server-side solutions</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>API Development</h3>
+                    <p>RESTful and GraphQL APIs for your applications</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2 class="gradient-text">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    
+                    <div class="blog-content">
+                        <h3>The Future of Web Development</h3>
+                        <p>Exploring upcoming trends and technologies in web development</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                   
+                    <div class="blog-content">
+                        <h3>Optimizing React Performance</h3>
+                        <p>Tips and tricks to boost your React application's performance</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                   
+                    <div class="blog-content">
+                        <h3>Introduction to GraphQL</h3>
+                        <p>Understanding the basics of GraphQL and its advantages</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2 class="gradient-text">Testimonials</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial active">
+                   
+                    <p>"Behailu is an excellent developer. His attention to detail and problem-solving skills are outstanding. Highly recommended!"</p>
+                    <cite>- John Doe, CEO of TechCorp</cite>
+                </div>
+                <div class="testimonial">
+                  
+                    <p>"Working with Behailu was a great experience. He delivered our project on time and exceeded our expectations."</p>
+                    <cite>- Jane Smith, Project Manager at InnovateTech</cite>
+                </div>
+                <div class="testimonial">
+                   
+                    <p>"Behailu's expertise in both front-end and back-end development made our project a success. We'll definitely work with him again."</p>
+                    <cite>- Mike Johnson, CTO of WebSolutions</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="gradient-text">Contact Me</h2>
+            <div class="contact-container">
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-envelope"></i> nahommovies@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +251996590910</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Addis Ababa Ethiopia</p>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Behailu Bekele</h3>
+                <p>Web Developer & Designer</p>
+         
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Recent Blog Posts</h3>
+                <ul class="recent-posts">
+                    <li><a href="#">The Future of Web Development</a></li>
+                    <li><a href="#">Optimizing React Performance</a></li>
+                    <li><a href="#">Introduction to GraphQL</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> &copy; <script>document.write( new Date().getFullYear() );</script> Behailu Bekele. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="scroll-top">↑</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
